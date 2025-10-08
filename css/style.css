@@ -1,3 +1,19 @@
+/* header */
+
 header .header-top{
     background-color: var(--green-800);
+}
+
+header .header-top div i{
+    color: var(--green-500);
+    padding: 0 4px;
+}
+
+header .header-top div span {
+    color: var(--white-900);
+}
+
+header .header-top div span:first-child:hover{
+    color: var(--green-500);
+    transition: 1s;
 }
