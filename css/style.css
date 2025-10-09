@@ -17,3 +17,17 @@ header .header-top div span:first-child:hover{
     color: var(--green-500);
     transition: 1s;
 }
+
+header .header-top .icons{
+    border-radius: 50%;
+    border: 1px solid var(--white-900);
+    color: var(--white-900);
+}
+
+header .header-top .icons:hover i{
+    color: var(--green-500);
+}
+
+header .header-top .icons i{
+    color: white;
+}
