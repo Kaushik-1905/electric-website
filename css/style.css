@@ -31,14 +31,10 @@ header .header-top .icons i{
 }
 
 header .header-top .icons:hover {
-    background-color: var(--green-500); /* New color on hover */
-    color: #ffffff; /* Optional: change icon color too */
+    background-color: var(--green-500);
+    color: #ffffff;
 }
 
-
-header .header-top .icons:hover::before {
-    transform: scale(1); /* full size */
-}
 
 header .header-top .icons i {
     position: relative;
@@ -46,4 +42,15 @@ header .header-top .icons i {
     transition: color 0.6s ease;
 }
 
+header .header-bottom .left-menu{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 110px;
+}
+
+header .header-bottom .left-menu ul li a{
+    display: block;
+    text-decoration:none;
+}
 

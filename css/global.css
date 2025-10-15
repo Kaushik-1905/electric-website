@@ -8,6 +8,21 @@ i{
     display: inline-block;
 }
 
+img{
+    width: 100%;
+    display: block;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+ul , li{
+    list-style: none;
+    display: block;
+}
+
 :root{
     --green-800:#20684A;
     --green-500:#2AB97E;
