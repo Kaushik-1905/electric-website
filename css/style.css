@@ -52,5 +52,35 @@ header .header-bottom .left-menu{
 header .header-bottom .left-menu ul li a{
     display: block;
     text-decoration:none;
+    padding: 18px 4px;
+    margin-top: 4px;
+    color: black;
+}
+
+
+header .header-bottom .right-menu .icon{
+    border-radius: 50%;
+    border: solid gray 1px;
+    padding: 10px 14px;
+    margin: 0 8px;
+}
+
+header .header-bottom .right-menu .icon:hover{
+    color: white;
+    background-color: var(--green-500);
+}
+
+
+header .header-bottom .right-menu a{
+    text-decoration: none;
+    color: var(--white-900);
+    padding: 12px 22px;
+    background-color: var(--green-500);
+    border-radius: 10px;
+}
+
+header .header-bottom .right-menu a:hover{
+    background-color: var(--yellow-900);
+    color: black;    
 }
 
