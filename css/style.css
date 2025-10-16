@@ -1,7 +1,13 @@
 /* header */
 
+header .container{
+    max-width: 100%;
+    padding: 0;
+}
+
 header .header-top{
     background-color: var(--green-800);
+    padding: 5px 150px;
 }
 
 header .header-top div i{
@@ -11,6 +17,7 @@ header .header-top div i{
 
 header .header-top div span {
     color: var(--white-900);
+    font-family: var(--archivo);
 }
 
 header .header-top div span:first-child:hover{
@@ -42,6 +49,10 @@ header .header-top .icons i {
     transition: color 0.6s ease;
 }
 
+header .header-bottom{
+    padding: 5px 160px;
+}
+
 header .header-bottom .left-menu{
     display: flex;
     flex-wrap: wrap;
@@ -52,11 +63,56 @@ header .header-bottom .left-menu{
 header .header-bottom .left-menu ul li a{
     display: block;
     text-decoration:none;
-    padding: 18px 4px;
-    margin-top: 4px;
+    padding: 18px 10px;
+    margin:  0 4px;
     color: black;
+    font-family: var(--titillium-web);
+    font-size: 16px;
+    font-weight: 600;
 }
 
+header .header-bottom .left-menu ul li a:hover{
+    color: var(--green-500);
+    border-bottom: 3px solid var(--green-500);
+}
+
+header .header-bottom .left-menu ul li:first-child a{
+    color: var(--green-500);
+    border-bottom: 3px solid var(--green-500);
+}
+
+header .drop {
+    position: relative;
+}
+
+header .drop .dropdown {
+    position: absolute;
+    background-color: #272727;
+    display: none;
+    width: max-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px
+}
+
+header .drop:hover .dropdown {
+    display: block;
+}
+
+header .drop .dropdown a {
+    padding: 5px;
+    display: block;
+    border-bottom: 1px solid #999999;
+    padding-bottom: 5px;
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-family:var(--oswald);
+    font-weight: 400;
+}
+
+header .drop .dropdown a:hover {
+    color: #B19777;
+}
 
 header .header-bottom .right-menu .icon{
     border-radius: 50%;
@@ -77,6 +133,9 @@ header .header-bottom .right-menu a{
     padding: 12px 22px;
     background-color: var(--green-500);
     border-radius: 10px;
+    font-family: var(--titillium-web);
+    font-size: 16px;
+    font-weight: 700;
 }
 
 header .header-bottom .right-menu a:hover{
