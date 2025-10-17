@@ -83,11 +83,12 @@ header .header-bottom .left-menu ul li:first-child a{
 
 header .drop {
     position: relative;
+    background-color: white;
 }
 
 header .drop .dropdown {
     position: absolute;
-    background-color: #272727;
+    background-color: var(--white-900);
     display: none;
     width: max-content;
     padding-left: 10px;
@@ -98,6 +99,7 @@ header .drop .dropdown {
 header .drop:hover .dropdown {
     display: block;
 }
+
 
 header .drop .dropdown a {
     padding: 5px;
@@ -142,4 +144,5 @@ header .header-bottom .right-menu a:hover{
     background-color: var(--yellow-900);
     color: black;    
 }
+
 
