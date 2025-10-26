@@ -146,3 +146,49 @@ header .header-bottom .right-menu a:hover{
 }
 
 
+
+
+/* service-section */
+
+.service-card .services {
+    background-color: var(--gray-500);
+}
+
+.service-card .services .cards{
+    padding-right: 20px;
+    padding-left: 20px;
+    border-right: 1px solid gray;   
+}
+
+.service-card .services .cards:last-child{
+    border: none;
+}
+
+.service-card .services .cards .icon{
+    padding: 15px;
+    background-color: var(--white-900);
+    display: inline-block;
+    border-radius: 50%;
+    font-size: 30px;
+}
+
+.service-card .services .cards:hover .icon{
+    background-color: var(--green-500);
+    color: var(--white-900);
+    transition: 1s;
+}
+
+.service-card .services .cards h3{
+    font: var(--titillium-web);
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.service-card .services .cards h3:hover{
+    color: var(--green-500);
+}
+
+.service-card .services .cards p{
+    font: var(--archivo);
+    font-size: 16px;
+}
