@@ -269,3 +269,56 @@ header .header-bottom .right-menu a:hover{
     background-color: var(--green-500);
     transition: 0.5s;
 }
+
+/**** profile-section ****/
+
+.profile{
+    margin-top: 50px;
+}
+
+.profile .profile1{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+
+}
+
+
+
+
+.profile .image img{
+    height: 88px;
+    width: 88px;
+    margin: 0 auto;
+    position: absolute;
+    top: -30px;
+    right: 300px;
+    
+}
+.profile p{
+    font-size: 20px;
+    font-family: var(--archivo);
+    color: grey;
+    text-align: center;
+    padding-top: 80px;
+}
+.profile i{
+    color: yellow;
+    
+}
+
+.profile h4{
+    font-size: 24px;
+    font-family: var(--titillium-web);
+    font-weight: 700;
+}
+.profile h4:hover{
+    color: var(--green-500);
+}
+.profile h5{
+    font-size: 16px;
+    font-family: var(--archivo);
+    color: grey;
+
+}
