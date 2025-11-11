@@ -192,3 +192,80 @@ header .header-bottom .right-menu a:hover{
     font: var(--archivo);
     font-size: 16px;
 }
+
+
+
+
+/**** about-section ****/
+
+.about .image-sec{
+    position: relative;
+}
+
+
+.about{
+    margin-top: 50px;
+}
+
+.about img{
+    border-radius: 30px;
+}
+
+.about .image img{
+    padding: 20px;
+    border-radius: 30px;
+    margin-top: 0;
+}
+.about .image-sec .text{
+    z-index: 1;
+    left: 200px;
+    position: absolute;
+    background-color: var(--green-500);
+    color: var(--white-900);
+    border-radius: 20px;
+    font-family: var(--titillium-web);
+
+    
+}
+
+.about i{
+    font-size: 50px;
+    
+
+}
+.about h3{
+    font-size: 23px;
+}
+
+.about .desc h6{
+    font-size: 18px;
+    font-family: var(--titillium-web);
+    color: var(--green-800);
+    font-weight: 700;
+    margin-top: 20px;
+}
+.about .desc h2{
+    font-size: 48px;
+    font-family: var(--titillium-web);
+    font-weight: 500;
+
+}
+
+.about .desc p{
+    font-size: 16px;
+    font-family: var(--archivo);
+    color: grey;
+    padding-bottom: 10px;
+}
+.about .desc a{
+    background-color: rgb(145, 255, 0);
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    padding-top: 5px;
+}
+.about .desc a:hover{
+    background-color: var(--green-500);
+    transition: 0.5s;
+}
